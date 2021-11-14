@@ -1,12 +1,12 @@
 <script>
-  import { fly } from "svelte/transition";
+  import { fade } from "svelte/transition";
   export let refresh = "";
 </script>
 
 {#key refresh}
   <div
-    in:fly={{ y: 5, duration: 250, delay: 250 }}
-    out:fly={{ y: 5, duration: 250 }}
+    in:fade={{duration: 250, delay: 250 }}
+    out:fade={{duration: 250 }}
   >
     <slot />
   </div>

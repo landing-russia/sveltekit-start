@@ -15,11 +15,11 @@
   });
 </script>
 
-<div class="w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
-  <h1 class="box invisible w-96 text-4xl font-bold text-gray-900">
+<div class="container-fluid">
+  <h1 class="box invisible text-4xl font-bold text-gray-800">
     Welcome to SvelteKit
   </h1>
-  <p class="text-gray-700 font-medium">
+  <p class="text-gray-500 font-medium">
     Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
   </p>
 </div>
