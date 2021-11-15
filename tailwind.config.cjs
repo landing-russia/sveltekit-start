@@ -14,7 +14,7 @@ const config = {
     extend: {
       colors,
       fontFamily: {
-        inter: "'Inter', sans",
+        inter: "Inter, sans-serif",
       },
       maxWidth: {
         "1/4": "25%",
