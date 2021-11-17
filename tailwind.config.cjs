@@ -16,6 +16,9 @@ const config = {
       fontFamily: {
         inter: "Inter, sans-serif",
       },
+      fontSize: {
+        '10xl': '10rem'
+      },
       maxWidth: {
         "1/4": "25%",
         "1/2": "50%",
