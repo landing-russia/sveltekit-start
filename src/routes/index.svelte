@@ -16,7 +16,7 @@
 </script>
 
 <div class="container-fluid">
-  <h1 class="box invisible text-4xl font-bold text-gray-800">
+  <h1 class="box invisible text-4xl font-bold text-gray-800 dark:text-gray-100">
     Welcome to SvelteKit
   </h1>
   <p class="text-gray-500 font-medium">

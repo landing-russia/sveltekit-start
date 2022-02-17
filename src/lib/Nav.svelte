@@ -55,7 +55,7 @@
 <svelte:window on:keydown={isNavEsc} />
 
 <div
-  class="fixed w-full backdrop-blur-lg bg-white/30 shadow transform ease-in-out transition-all duration-200 {isNav
+  class="fixed w-full bg-white shadow transform ease-in-out transition-all duration-200 {isNav
     ? 'translate-y-0'
     : '-translate-y-full'} z-40"
 >
@@ -143,16 +143,16 @@
 {#if isOpen}
   <div
     transition:fade={{ duration: 200 }}
-    class="fixed inset-0 backdrop-blur-sm bg-white/30 z-30"
+    class="fixed inset-0 bg-white/75 dark:bg-gray-700/75 z-30"
     aria-hidden="true"
     on:click={() => (isOpen = false)}
   />
 {/if}
 
 <aside
-  class="transform top-0 left-0 w-64 bg-slate-50 fixed h-full p-6 shadow-lg overflow-auto ease-in-out transition-all duration-200 z-50 {isOpen
+  class="transform top-0 left-0 w-64 bg-white dark:bg-gray-900 fixed h-full p-6 shadow-lg overflow-auto ease-in-out transition-all duration-200 z-50 {isOpen
     ? 'translate-x-0'
     : '-translate-x-full'}"
 >
-  aside
+  <div class="text-gray-700 dark:text-gray-200">Menu</div>
 </aside>
