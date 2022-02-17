@@ -23,3 +23,9 @@
     Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
   </p>
 </div>
+
+<div class="h-96" />
+<div class="h-96" />
+<div class="h-96" />
+<div class="h-96" />
+<div class="h-96" />
