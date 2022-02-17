@@ -20,9 +20,10 @@
 
   if (typeof localStorage !== "undefined") {
     if (
-      localStorage.theme === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
+      localStorage.theme === "dark" 
+      // ||
+      // (!("theme" in localStorage) &&
+      //   window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
       isDark = "dark";
       document.documentElement.classList.add("dark");
