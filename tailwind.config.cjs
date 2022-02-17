@@ -1,10 +1,10 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const colors = require("tailwindcss/colors");
+// const colors = require("tailwindcss/colors");
 
 const config = {
-  mode: "jit",
-  purge: ["./src/**/*.{html,js,svelte,ts}"],
-  darkMode: false, // or 'media' or 'class'
+  // mode: "jit",
+  content: ["./src/**/*.{html,js,svelte,ts}"],
+  darkMode: 'class', // or 'media' or 'class'
 
   theme: {
     screens: {
@@ -12,7 +12,7 @@ const config = {
       ...defaultTheme.screens,
     },
     extend: {
-      colors,
+      // colors,
       fontFamily: {
         inter: "Inter, sans-serif",
       },
